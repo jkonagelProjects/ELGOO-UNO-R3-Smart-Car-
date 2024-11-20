@@ -1,1 +1,1 @@
-# ELGOO-UNO-R3-Smart-Car-
+# ELGOO-UNO-R3-Smart-Car- Edit your code or use the code provided and test your robot to do what you want to your liking. Test your car and see how it wokrs and make any tweaks you may want. This car has multiple diferent fun modes available for you. 
