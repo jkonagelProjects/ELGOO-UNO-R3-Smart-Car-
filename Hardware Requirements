@@ -1,0 +1,25 @@
+R3 Smart Car Requirements
+Operating System	Windows / macOS / Linux	Windows 10+, macOS 12+, Ubuntu 20.04+	Ensure USB drivers for the Arduino board are correctly installed (e.g., CH340 driver).
+Processor	Intel/AMD Processor	64-bit, 2 GHz+	Low-power systems (e.g., Raspberry Pi Zero) may struggle to process real-time data.
+RAM	Minimum 4 GB	8 GB recommended	May need more RAM for advanced programming or simulation environments.
+Storage	Minimum 1 GB free	5 GB recommended	Large libraries (e.g., OpenCV for camera modules) may require additional space.
+Software	Arduino IDE	1.8.19+ or Arduino IDE 2.0.0+	Verify that the Elegoo library files are added to the Arduino IDE correctly.
+Python	3.10+	Needed for custom scripts or integrations. Ensure all necessary packages (e.g., pyserial) are installed.
+CH340 USB Driver	Latest version	Required to connect the ELEGOO board via USB on Windows systems.
+Bluetooth Terminal App	E.g., “Serial Bluetooth Terminal” on Android	Ensure the app supports HC-08 Bluetooth communication.
+Elegoo Smart Car Libraries	Version provided in the kit's resources	Add these to the Arduino IDE. Incorrect installation leads to compilation errors.
+Motor Driver (L298N) Control Libraries	Version provided in the kit resources	Ensure library compatibility with the Arduino IDE.
+Hardware	ELEGOO Smart Robot Car Kit V4	Latest version	Ensure the kit is complete (check for screws, jumpers, etc.). Missing components may lead to assembly issues.
+Arduino UNO R3 or Compatible Board	Included in the kit	Test the board before assembly; some boards may have pre-existing defects.
+Motors and Wheels	Included in the kit	Ensure motors are aligned correctly to avoid poor performance or drift.
+Ultrasonic Sensor	HC-SR04 or similar	Properly connect the VCC, GND, TRIG, and ECHO pins. Reversed connections can damage the sensor.
+Line Tracking Sensors	Infrared line sensors included in the kit	Test sensors on a flat surface. Incorrect calibration may result in poor line detection.
+Bluetooth Module	HC-08	Ensure correct wiring and pairing with the control device.
+Batteries	4x AA or Rechargeable Li-ion Batteries	Weak or incompatible batteries lead to unstable power and poor performance.
+Motor Driver Module	L298N	Ensure heat sink is attached if required. Overheating can cause motor driver failure.
+Hidden Details	Voltage Supply	6-12V	Using higher than recommended voltage can damage components.
+Wiring Connections	Secure and correct	Loose wires cause intermittent failures; double-check before powering up.
+Battery Polarity	Correct alignment	Reversed polarity can permanently damage the electronics.
+Serial Port Settings	Correct port and baud rate	Use 9600 baud by default. Incorrect settings will prevent communication.
+Sensor Placement	Calibrated and aligned	Misaligned sensors cause inaccurate readings (e.g., line tracking or obstacle detection issues).
+Debugging Tools	Multimeter, Logic Analyzer	Useful for troubleshooting wiring or component failures.
